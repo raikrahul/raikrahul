@@ -1,48 +1,77 @@
 # Rahul &bull; Systems Software Engineer
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Outfit&size=22&duration=3000&pause=1000&color=22c55e&width=450&height=40&vCenter=true&lines=Linux+Kernel+Hacking;Low-level+Optimization;C++20+%2F+Rust+Systems;RDMA+%26+High-Performance+Networking" alt="Typing SVG" />
-</p>
+```
+┌────────────────────────────────────────────────────────┐
+│  r@kernel:~$ finger raikrahul                         │
+│  Login: raikrahul            Name: Rahul               │
+│  Company: Microsoft          Location: Bangalore       │
+│  Shell: /bin/bash            Project: Linux Kernel MM  │
+└────────────────────────────────────────────────────────┘
+```
 
 ---
 
-### 🛠️ Core Stack & Subsystems
+### 🛡️ Featured Systems Substrates (No "Popular" Repos)
 
-<p align="left">
-  <img src="https://img.shields.io/badge/Linux_Kernel-000000?style=for-the-badge&logo=linux&logoColor=22c55e" />
-  <img src="https://img.shields.io/badge/C++20-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" />
-  <img src="https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=DE593E" />
-  <img src="https://img.shields.io/badge/CUDA-76B900?style=for-the-badge&logo=nvidia&logoColor=white" />
-  <img src="https://img.shields.io/badge/RDMA%20%2F%20RoCE-0A0A0A?style=for-the-badge&logo=network-wired&logoColor=22c55e" />
-</p>
+<table width="100%">
+  <tr>
+    <td width="50%" valign="top">
+      <h4>🧠 <a href="https://github.com/raikrahul/cowproof">cowproof</a></h4>
+      <p><em>Empirical verification of Copy-on-Write page sharing and multi-level page table translation.</em></p>
+      <ul>
+        <li>PGD/PUD/PMD/PTE descriptor extraction</li>
+        <li>Physical frame split instrumentation</li>
+      </ul>
+    </td>
+    <td width="50%" valign="top">
+      <h4>⚡ <a href="https://github.com/raikrahul/zero-copy-pipeline">zero-copy-pipeline</a></h4>
+      <p><em>Ultra-low latency data ingestion pipeline using zero-copy transfers.</em></p>
+      <ul>
+        <li>Linux <code>splice()</code> and user-space ring buffers</li>
+        <li>Minimal kernel context switching</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h4>🔬 <a href="https://github.com/raikrahul/what-happens-when-open-is-called">what-happens-when-open-is-called</a></h4>
+      <p><em>Interactive step-by-step kernel space walk of the open() system call.</em></p>
+      <ul>
+        <li>Kernel entry tracing and VFS path resolution</li>
+        <li>inode allocation and ext4 journaling mechanics</li>
+      </ul>
+    </td>
+    <td width="50%" valign="top">
+      <h4>🔌 <a href="https://github.com/raikrahul/socket-tracer">socket-tracer</a></h4>
+      <p><em>Low-level socket activity tracing and packet inspection.</em></p>
+      <ul>
+        <li>eBPF-driven kernel networking tracing</li>
+        <li>Low-overhead syscall interception</li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
 ---
 
-### 🚀 Highlighted Systems Proofs & Engineering
+### 🛠️ Subsystem Stack
 
-#### 🛡️ [cowproof](https://github.com/raikrahul/cowproof)
-*Empirical verification of Copy-on-Write (COW) mechanics and multi-level page table translation.*
-- **Substrate**: Custom Linux kernel modules extracting raw PGD/PUD/PMD/PTE descriptors.
-- **Proofs**: Deterministic physical page-sharing verification before and after write-fault splits.
-- **Style**: Axiomatic derivations, zero working memory approach.
-
-#### ⚡ [zero-copy-pipeline](https://github.com/raikrahul/zero-copy-pipeline)
-*Ultra-low latency data ingestion pipeline using zero-copy transfers.*
-- **Substrate**: Linux `splice()` and user-space ring buffers.
-- **Performance**: High-throughput throughput close to line rate with minimal context switches.
-
-#### 🔬 [what-happens-when-open-is-called](https://github.com/raikrahul/what-happens-when-open-is-called)
-*Interactive step-by-step kernel space walk of the `open()` system call.*
-- **Substrate**: Kernel entry tracing, VFS path resolution, inode allocation, ext4 filesystem journal logic.
+<table>
+  <tr>
+    <td><b>Core</b></td>
+    <td>Linux Kernel, Virtual Memory, Virtual File System (VFS), Device Drivers</td>
+  </tr>
+  <tr>
+    <td><b>Languages</b></td>
+    <td>C, C++20, Rust, x86-64 Assembly, eBPF</td>
+  </tr>
+  <tr>
+    <td><b>Networking</b></td>
+    <td>RDMA, RoCE, TCP/IP Stack, Socket Programming</td>
+  </tr>
+</table>
 
 ---
-
-### 📊 Engineering Metrics & Activity
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=raikrahul&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=22c55e&icon_color=ef4444&text_color=c9d1d9" alt="GitHub Stats" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=raikrahul&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=22c55e&text_color=c9d1d9" alt="Top Langs" width="48%" />
-</p>
 
 <p align="center">
   <img src="https://ghchart.rshah.org/22c55e/raikrahul" alt="Rahul's GitHub Contributions" />
